@@ -37,4 +37,5 @@ for i in range(10):
     plt.imshow(X_test[i].reshape(8, 8), cmap=plt.cm.gray_r, interpolation='nearest')
     plt.title(f"Predicted: {y_pred[i]}")
     plt.axis('off')
+
 plt.show()
